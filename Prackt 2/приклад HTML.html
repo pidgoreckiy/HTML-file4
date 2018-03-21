@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Prackt 2(15.03.2018)</title>
+</head>
+<body style="width:20%;height:100%;position:absolute;top:0px;left:40%;color:black">
+<p><h1 style= "text-align: center;">Анкета</h1></p>
+<form action="tyty.php">
+<p><label for="first_name"><big>Ваше імя:</big></label><input type="text" id="first_name" name="first_name" placeholder="Введіть ваше імя"><br></p>
+<p><label for="last_name"><big>Ваше прізвище:</big></label><input type="text" id="last_name" name="last_name" placeholder="Введіть ваше прізвище"><br></p>
+<p><label><big>Дата народження:</big></label>
+<select name="deys" size="1">
+<option value="first">11</option>
+<option value="second">12</option>
+<option value="third">13</option>
+<option value="forth">14</option>
+</select>
+<select name="month" size="1">
+<option value="first">01</option>
+<option selected="selected" value="second">02</option>
+<option value="third">03</option>
+<option value="forth">04</option>
+<option value="">05</option>
+<option value="">06</option>
+<option value="">07</option>
+<option value="">08</option>
+<option value="">09</option>
+<option value="">10</option>
+<option value="">11</option>
+<option value="">12</option>
+</select>
+<select name="years" size="1">
+<option value="first">1996</option>
+<option value="second">1997</option>
+<option value="third">1998</option>
+<option value="forth">1999</option>
+</select><br></p>
+<p><label for="namber"><big>Ваш номер телефону:</big> </label> <input type="text"id="namber" name="namber" placeholder="+380-67-843-34-21"><br></p>
+<p><label for="plase_of_study"><big>Місце проживання:<big></label><input type="text" id="plase_of_study" name="plase_of_study" placeholder="Київ"><br></p>
+<p ><input type="radio" value="male" name="sex">Чоловік  ||  <input type="radio" value="female" name="sex">Жінка<br></p>
+<p><label for="comments">Короткий опис:</label><textarea name="comments"  id="comments" rows="7" cols="50"> </textarea><br></p>
+<p><input type="checkbox" value="1" name="remember">З правилами погоджуюся<br></p>
+<fieldset>
+<legend>Реєстраційна інформація</legend>
+<p><label for="nick_name"><small>Псевдонім:</small></label><input type="text" name="nick_name" id="nick_name"><br></p>
+<p><label for="email"><small>E-mail:</small></label><input type="text" name="email" id="email"><br></p>
+<p><label for="password"><small>Password:</small></label> <input type="password" name="password"id="password"></p>
+<p><label for="repeat password"><small>Repeat password:</small></label> <input type="password" name="repeat password"id="repeat password"></p>
+</fieldset><br>
+</fieldset><br>
+
+<p style= "text-align: center;"><input type="submit" name="submit" value="Відправити"></p>
+</form>
+
+</body>
+</html>
